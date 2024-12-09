@@ -12,4 +12,4 @@
       condition: event.payload.message == "42"
       action:
         run_playbook:
-          name: demo.yml
+          name: playbooks/demo.yml
